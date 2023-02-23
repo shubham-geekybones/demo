@@ -1,11 +1,10 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { NewFeatures, TitleText, TypingText } from '../components';
-import { newFeatures } from '../constants';
+import { TitleText } from '../components';
 
 import styles from '../styles';
-import { fadeIn, planetVariants, staggerContainer, zoomIn } from '../utils/motion';
+import { fadeIn, staggerContainer } from '../utils/motion';
 
 const Feedback = () => (
   <section className={`relative z-10`}>

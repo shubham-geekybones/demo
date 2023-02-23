@@ -1,72 +1,46 @@
-export const exploreWorlds = [
+export const constantsUs = [
   {
-    id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    id: '1',
+    country: 'Geneva, Switzerland',
+    branch: 'CORPORATE HEADQUARTERS',
+    phoneNo: 'Phone:+41 227415900',
+    emailId: 'gva.reception@mont-fort.com',
+    block: 'Mont-Blanc',
+    area: 'Rue du Mont-Blanc 14,',
+    pincode: '1201 Genève, Switzerland'
   },
   {
-    id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    id: '2',
+    country: 'Abu Dhabi, UAE',
+    branch: 'MANAGEMENT OFFICE',
+    phoneNo: 'Phone: +971 45109799',
+    emailId: 'uae.reception@mont-fort.com',
+    block: 'Office 2458, Level 24, Al Sila Tower',
+    area: 'Abu Dhabi Global Market Square',
+    pincode: 'Al Maryah Island, PO Box 5100740'
   },
   {
-    id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    id: '3',
+    country: 'Dubai, UAE',
+    branch: 'TRADING FLOOR',
+    phoneNo: 'Phone:+971 45109700',
+    emailId: 'uae.reception@mont-fort.com',
+    block: '11th Floor, ICD Brookfield',
+    area: '312 Al Mustaqbal St – Trade Centre',
+    pincode: ''
   },
   {
-    id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
-  },
-  {
-    id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
-  },
-];
-
-export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
-];
-
-export const newFeatures = [
-  {
-    imgUrl: '/vrpano.svg',
-    title: 'A new world',
-    subtitle:
-        'we have the latest update with new world for you to try never mind',
-  },
-  {
-    imgUrl: '/headset.svg',
-    title: 'More realistic',
-    subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+    id: '4',
+    country: 'Singapore',
+    branch: 'TRADING FLOOR',
+    phoneNo: 'Phone:+65 31051583',
+    emailId: 'sing.reception@mont-fort.com',
+    block: '8 Cross Street, Manulife Tower, #24-03/04',
+    area: 'Singapore 048424',
+    pincode: ''
   },
 ];
 
-export const insights = [
-  {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
-    subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
-  },
-  {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
-    subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
-  },
-  {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
-    subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
-  },
-];
 
 export const socials = [
   {

@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import { textContainer, textVariant2 } from '../utils/motion';
 
-export const TypingText = ({ title, textStyles,fontSize }) => (
+export const TypingText = ({ title, textStyles, fontSize }) => (
   <motion.p
     variants={textContainer}
     className={`font-normal ${fontSize ? fontSize : 'text-[24px]'} text-white ${textStyles}`}
@@ -16,12 +16,12 @@ export const TypingText = ({ title, textStyles,fontSize }) => (
   </motion.p>
 );
 
-export const TitleText = ({ title, textStyles,fontSize }) => (
+export const TitleText = ({ title, textStyles, fontSize, maxWith }) => (
   <motion.h2
     variants={textVariant2}
     initial="hidden"
     whileInView="show"
-    className={`mt-[8px] ${fontSize ? fontSize : "md:text-[54px] text-[40px]"} text-white ${textStyles}`}
+    className={`mt-[8px] ${fontSize ? fontSize : "md:text-[54px] text-[40px]"} ${maxWith} text-white ${textStyles}`}
   >
     {title}
   </motion.h2>

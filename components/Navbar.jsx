@@ -1,27 +1,27 @@
 'use client';
-import Link from 'next/link'
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
 
 const Navbar = () => (
-  <motion.nav
+   <motion.nav
     variants={navVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.xPaddings} py-8 relative`}
+    className={`${styles.xPaddings} relative`}
   >
     <div className="absolute w-[50%] inset-0 gradient-01" />
     <div
-      className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
+      className={`${styles.innerWidth} mx-auto flex justify-between items-center gap-8`}
     >
       <img
-        src="/search.svg"
+        src="/logo.png"
         alt="search"
-        className="w-[24px] h-[24px] object-contain"
+        className="w-[114px] h-[114px] object-contain"
       />
-      <ul>
+      <ul className='navigation'>
         <li>
           <Link href="/">Home</Link>
         </li>

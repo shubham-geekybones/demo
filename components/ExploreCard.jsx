@@ -13,7 +13,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
     } flex items-center justify-center min-w-[170px] h-[700px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
     onClick={() => handleClick(id)}
   >
-    <img
+    {/* <img
       src={imgUrl}
       alt="planet-04"
       className="absolute w-full h-full object-cover rounded-[24px]"
@@ -40,7 +40,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
           {title}
         </h2>
       </div>
-    )}
+    )} */}
   </motion.div>
 );
 

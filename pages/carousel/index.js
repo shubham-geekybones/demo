@@ -1,8 +1,7 @@
-import React from 'react'
-import { TitleText, TypingText } from '../../components'
-import { Carousel } from './carousel'
+import React from 'react';
+import { TitleText, TypingText } from '../../components';
 import { motion } from 'framer-motion';
-import { fadeIn, staggerContainer } from '../../utils/motion';
+import { staggerContainer } from '../../utils/motion';
 import styles from '../../styles';
 const CarouselMain = () => {
 
@@ -31,4 +30,4 @@ const CarouselMain = () => {
     )
 }
 
-export default CarouselMain
+export default CarouselMain;

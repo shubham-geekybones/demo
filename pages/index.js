@@ -4,7 +4,6 @@ import CarouselMain from './carousel';
 
 const Home = () => (
   <div className="bg-primary-black overflow-hidden">
-    <Navbar />
     <CarouselMain/>
     <div className="relative">
       <GetStarted />
@@ -17,7 +16,7 @@ const Home = () => (
       <div className="gradient-04 z-0" />
       <Feedback />
     </div>
-    <Footer />
+    {/* <Footer /> */}
   </div>
 );
 

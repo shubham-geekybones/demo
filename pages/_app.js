@@ -1,17 +1,19 @@
 import Head from 'next/head';
+import { Footer, Navbar } from '../components';
+import Layout from '../components/layout';
 
 import '../styles/globals.css';
 
 const MyApp = ({ Component, pageProps }) => (
   <>
+  <Layout>
     <Head>
-      <title>Demo</title>
+      <title>Siddhi</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
-      <link rel="preconnect" href="https://stijndv.com" />
-      <link rel="stylesheet" href="https://stijndv.com/fonts/Eudoxus-Sans.css" />
     </Head>
-    <Component {...pageProps} />
+      <Component {...pageProps} />
+    </Layout>
   </>
 );
 
