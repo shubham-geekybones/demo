@@ -22,7 +22,6 @@ const World = () => (
         <img src="https://mont-fort.com/wp-content/uploads/2021/08/slider_new_map.png" className="ls-layer w-full h-full object-cover" alt="" decoding="async" loading="lazy"
           data-ls="durationin:1500;easingin:easeOutQuint;scalexin:3;scaleyin:3;transformoriginin:50% 50% -500px;durationout:1500;scalexout:0.5;scaleyout:0.5;parallax:true;parallaxlevel:10;"
           data-ls-slidein="1" data-ls-slideout="1" data-ls-active=""></img>
-        <img src="/map.png" alt="map" className="w-full h-full object-cover" />
 
         <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img src="people-01.png" alt="people" className="w-full h-full" />
