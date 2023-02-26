@@ -21,8 +21,7 @@
 
 nav {
   width: 100%;
-  z-index: 1000;
-  position: fixed !important;
+  z-index: 100000;
 }
 
 nav ul {
@@ -245,10 +244,31 @@ nav ul li:hover a {
   display: flex;
 }
 
-.contact-us {
-  top: 0;
-  background: rgba(0, 0, 0, 0.334);
+.navigation.active {
+  top: 0px;
+  right: 0;
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  background-color: rgb(26 35 46 / 0.94)
 }
+.navigation.active li{
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+.contact-us-div{
+  top: 0;
+  width: 100%;
+  height: 111vh;
+  background: rgba(0, 0, 0, 0.334);
+  display: flex;
+  justify-content: space-around;
+}
+
 
 .contact-us.card {
   display: flex;
@@ -257,7 +277,6 @@ nav ul li:hover a {
   flex-direction: column;
   padding: 20px;
   background: rgba(255, 255, 255, 0.75);
-  min-height: 250px;
   min-width: 250px;
 }
 
@@ -265,15 +284,28 @@ nav ul li:hover a {
   color: #2c3e50;
   font-size: 12px;
   padding: 5px 0;
-  
+
+}
+
+.section-one-padding{
+  padding: 0 20px;
+}
+
+.contact-form{
+  min-width: 400px;
 }
 .contact-us.card p:first-child {
   font-weight: bold;
 }
 
-.contact-us-section video{
+.contact-us-section video {
+  width: 100%;
   height: 100vh;
 }
+form{
+  background: rgba(255, 255, 255, 0.75)
+}
+
 @media (max-width:991px) {
   .navigation {
     display: none;

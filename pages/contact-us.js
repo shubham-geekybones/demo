@@ -6,14 +6,14 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import { constantsUs, exploreWorlds } from '../constants';
 import { fadeIn, staggerContainer } from '../utils/motion';
-import { ExploreCard, TitleText, TypingText } from '../components';
+import ContactUS from '../components/contact-us';
 
 const ContactUs = () => {
     const [active, setActive] = useState('world-2');
 
     return (
         <section id="explore" className='contact-us-section'>
-            <video className='background-video w-full object-cover'
+            <video className='background-video object-cover'
                 loop
                 autoPlay
                 muted>
@@ -24,31 +24,24 @@ const ContactUs = () => {
                 initial="hidden"
                 whileInView="show"
                 viewport={{ once: false, amount: 0.25 }}
-                className={`${styles.innerWidth} absolute mx-auto h-full flex flex-col contact-us`}
+                className={`${styles.innerWidth} absolute flex flex-wrap w-screen  items-center contact-us-div`}
             >
-                <div className="flex justify-center items-center lg:flex-row h-full flex-wrap gap-8">
+                <ContactUS />
+                <div className="hidden md:block">
                     {constantsUs.map((details, index) => (
                         <motion.div
+                        key={index}
                             variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
-                            className={`relative flex items-center justify-center transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
+                            className={`contact-us card relative flex items-center justify-center transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
                         >
-                            <div className='contact-us card '>
-                                <p>{details.country}</p>
-                                <p>{details.branch}</p>
-                                <p>{details.phoneNo}</p>
-                                <p>{details.emailId}</p>
-                                <p>{details.block}</p>
-                                <p>{details.area}</p>
-                                <p>{details.pincode}</p>
-                            </div>
+                            <p>{details.country}</p>
+                            <p>{details.branch}</p>
+                            <p>{details.phoneNo}</p>
+                            <p>{details.emailId}</p>
+                            <p>{details.block}</p>
+                            <p>{details.area}</p>
+                            <p>{details.pincode}</p>
                         </motion.div>
-                        // <ExploreCard
-                        //   key={world.id}
-                        //   {...world}
-                        //   index={index}
-                        //   active={active}
-                        //   handleClick={setActive}
-                        // />
                     ))}
                 </div>
             </motion.div>

@@ -6,7 +6,7 @@ import { textContainer, textVariant2 } from '../utils/motion';
 export const TypingText = ({ title, textStyles, fontSize }) => (
   <motion.p
     variants={textContainer}
-    className={`font-normal ${fontSize ? fontSize : 'text-[24px]'} text-white ${textStyles}`}
+    className={`flex flex-wrap justify-center font-normal ${fontSize ? fontSize : 'text-[24px]'} text-white ${textStyles}`}
   >
     {Array.from(title).map((letter, index) => (
       <motion.span variants={textVariant2} key={index}>
@@ -16,12 +16,12 @@ export const TypingText = ({ title, textStyles, fontSize }) => (
   </motion.p>
 );
 
-export const TitleText = ({ title, textStyles, fontSize, maxWith }) => (
+export const TitleText = ({ title, textStyles, fontSize, maxWith, className }) => (
   <motion.h2
     variants={textVariant2}
     initial="hidden"
     whileInView="show"
-    className={`mt-[8px] ${fontSize ? fontSize : "md:text-[54px] text-[40px]"} ${maxWith} text-white ${textStyles}`}
+    className={`mt-[8px] ${className} ${fontSize ? `${fontSize}` : "md:text-[54px] text-[40px]"} ${maxWith} text-white ${textStyles}`}
   >
     {title}
   </motion.h2>

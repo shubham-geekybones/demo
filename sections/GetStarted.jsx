@@ -22,19 +22,19 @@ const GetStarted = () => (
       </motion.div>
       <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}
-        className="flex-[0.75] flex justify-center flex-col"
+        className="flex-[0.75] flex justify-center flex-col p-4"
       >
         <div className='border'></div>
         <TitleText title={<>Who We Are</>} />
 
-        <div className="mt-[31px] text-white text-[24px] flex flex-col max-w-[370px] gap-[24px]">
-          We are a global commodity trading and related-asset investment company.
+        <div className="mt-[31px] text-white text-[18px] md:text-[24px] flex flex-col max-w-[370px] gap-[24px]">
+          Our company engages in the trading of commodities and investments in related assets on a global scale.
         </div>
-        <button className='learn-more p-3 mt-6 rounded bg-blue-500 hover:bg-blue-400 text-white 
+        <button className='relative learn-more p-3 mt-6 rounded bg-blue-500 hover:bg-blue-400 text-white 
         focus:shadow-outline font-bold cursor-pointer focus:outline-none'>
-          <TypingText title="LEARN MORE" fontSize="text-[18px]"/>
+          <TypingText title="LEARN MORE" fontSize="text-[18px] w-full" />
         </button>
-        
+
       </motion.div>
     </motion.div>
   </section>

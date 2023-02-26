@@ -19,11 +19,10 @@ const CarouselMain = () => {
                     initial="hidden"
                     whileInView="show"
                     viewport={{ once: false, amount: 0.25 }}
-                    className={`${styles.innerWidth} text-center mx-auto ${styles.flexCenter} flex-col`}
+                    className={`${styles.innerWidth} text-center ${styles.flexCenter} flex-col section-one-padding`}
                 >
-                    <TitleText className={`text-center`} title={<>Global presence in mature
-                        and emerging markets</>} />
-                    <TypingText title="Learn more about Montfort" />
+                    <TitleText className={`text-center`} title={<>Presence worldwide across both developed and developing markets</>} />
+                    <TypingText title="Learn More about Siddhi Global FZCO" />
                 </motion.div>
             </div>
         </div>

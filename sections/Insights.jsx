@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import styles from '../styles';
 import { staggerContainer } from '../utils/motion';
-import {TitleText } from '../components';
+import { TitleText } from '../components';
 
 const Insights = () => (
   <section className={`relative z-10`}>
@@ -17,9 +17,11 @@ const Insights = () => (
       <div className="flex flex-col justify-center items-center gap-[15px] ">
         <div className='border'></div>
         <TitleText className={`text-center`} title={<>How We Operate</>} />
-        <div className="mt-[5px] text-white text-center text-[24px] flex flex-col max-w-[550px] gap-[24px]">
-          We conduct business under an integrated ESG Management Framework because we recognize the long-lasting impact our decisions have on people, communities, and the environment.
-        </div>
+        <TitleText
+          className={`text-center`}
+          fontSize="text-[18px] md:text-[24px]"
+          title={<>Our business operates within an integrated ESG Management Framework, acknowledging the enduring consequences our choices can have on individuals, societies, and the natural world.</>} />
+
       </div>
     </motion.div>
   </section>

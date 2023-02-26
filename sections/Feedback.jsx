@@ -19,10 +19,10 @@ const Feedback = () => (
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.95] pl-20 max-w-[550px] flex justify-center flex-col"
       >
-         <div className='border'></div>
+        <div className='border'></div>
         <TitleText title={<>Giving In Our Communities</>} />
-        <div className="mt-[8px] text-white text-[24px] flex flex-wrap justify-between gap-[24px]">
-          We give to reduce poverty. We give to fuel education. We give to empower women.
+        <div className="mt-[8px] text-white text-[18px] md:text-[24px] flex flex-wrap justify-between gap-[24px]">
+          We donate to alleviate poverty, support education, and empower women.
         </div>
       </motion.div>
     </motion.div>
