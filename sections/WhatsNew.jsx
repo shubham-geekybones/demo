@@ -11,16 +11,10 @@ const WhatsNew = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8 who-we-do`}
+      className={`${styles.innerWidth} w-full mx-auto flex items-center justify-end lg:flex-row flex-col gap-8 who-we-do`}
     >
       <motion.div
-        variants={planetVariants('right')}
-        className={`md:flex-1 ${styles.flexCenter}`}
-      >
-      </motion.div>
-      <motion.div
-        variants={fadeIn('right', 'tween', 0.2, 1)}
-        className="flex-[0.75] flex justify-center flex-col p-4"
+        className="md:flex-[none] flex-[0.75] flex flex-col p-4"
       >
         <div className='border'></div>
         <TitleText title={<>What We Do</>} />

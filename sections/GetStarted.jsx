@@ -16,12 +16,6 @@ const GetStarted = () => (
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8 who-we-are`}
     >
       <motion.div
-        variants={planetVariants('left')}
-        className={`md:flex-1 ${styles.flexCenter}`}
-      >
-      </motion.div>
-      <motion.div
-        variants={fadeIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col p-4"
       >
         <div className='border'></div>

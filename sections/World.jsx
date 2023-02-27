@@ -37,7 +37,7 @@ const World = () => (
       </motion.div>
       <div className='absolute bottom-5'>
         <div className='border'></div>
-        <TypingText title="Operating Globally" fontSize={"text-[40px]"} />
+        <TypingText title="Operating Globally" fontSize={"text-[30px] md:text-[40px] !justify-start"} />
         <TitleText
           title={(
             <>
