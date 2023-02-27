@@ -21,7 +21,7 @@ export const TitleText = ({ title, textStyles, fontSize, maxWith, className }) =
     variants={textVariant2}
     initial="hidden"
     whileInView="show"
-    className={`mt-[8px] ${className} ${fontSize ? `${fontSize}` : "md:text-[54px] text-[40px]"} ${maxWith} text-white ${textStyles}`}
+    className={`mt-[8px] ${className} ${fontSize ? `${fontSize}` : "md:text-[54px] text-[30px]"} ${maxWith} text-white ${textStyles}`}
   >
     {title}
   </motion.h2>

@@ -18,19 +18,19 @@ const ContactUs = () => {
                 autoPlay
                 muted>
                 <source src="contact-us.mp4" type="video/mp4" />
+                {/* <ContactUS /> */}
             </video>
             <motion.div
                 variants={staggerContainer}
                 initial="hidden"
                 whileInView="show"
                 viewport={{ once: false, amount: 0.25 }}
-                className={`${styles.innerWidth} absolute flex flex-wrap w-screen  items-center contact-us-div`}
+                className={`${styles.innerWidth} flex justify-around items-center flex-wrap w-screen contact-us-div`}
             >
-                <ContactUS />
-                <div className="hidden md:block">
+                    <ContactUS />
                     {constantsUs.map((details, index) => (
                         <motion.div
-                        key={index}
+                            key={index}
                             variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
                             className={`contact-us card relative flex items-center justify-center transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
                         >
@@ -43,8 +43,9 @@ const ContactUs = () => {
                             <p>{details.pincode}</p>
                         </motion.div>
                     ))}
-                </div>
+             
             </motion.div>
+
         </section>
     );
 };
