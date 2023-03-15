@@ -14,6 +14,11 @@ body {
   box-sizing: border-box;
 }
 
+:root {
+  --gold: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+}
+
 nav {
   width: 100%;
   z-index: 100000;
@@ -312,6 +317,328 @@ form {
   background: rgba(255, 255, 255, 0.75)
 }
 
+.et-simple-braket-block {
+  text-align: justify;
+  position: relative;
+}
+
+.et-simple-braket-block .braket {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 100%;
+  z-index: 15;
+  overflow: hidden;
+}
+
+.et-simple-braket-block .braket>div:last-child {
+  top: auto;
+  bottom: 0;
+}
+
+#et-simple-braket-block-1 .braket>div {
+  background-color: #fd8c40;
+}
+
+.et-simple-braket-block .braket>div:first-child,
+.et-simple-braket-block .braket>div:last-child {
+  position: absolute;
+  top: 0;
+  left: 12px;
+  width: 12px;
+  height: 12px;
+}
+
+.et-simple-braket-block .braket>div:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 12px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.et-simple-braket-block .braket>div:first-child,
+.et-simple-braket-block .braket>div:last-child {
+  position: absolute;
+  top: 0;
+  left: 12px;
+  width: 12px;
+  height: 12px;
+}
+
+#et-simple-braket-block-1 .braket-text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.braket-text {
+  padding: 32px 0 32px 40px;
+}
+
+.et-simple-braket-block .braket>div:last-child {
+  top: auto;
+  bottom: 0;
+}
+
+.what-we-do-header-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("/sea-view.jpg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.what-we-do-header-background p {
+  padding: 10px 20px;
+  background: #fff;
+  color: #000;
+  font-weight: 500;
+}
+
+/* image card */
+#loop-projects-1 .et-item {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 24px;
+}
+
+.product-list {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.post-inner {
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.image-container {
+  width: 100%;
+  height: auto;
+
+}
+
+.image-container img {
+  aspect-ratio: 1.6;
+}
+
+.what-we-do-head-text,
+.our-product-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.what-we-do-head-text p,
+.our-product-text p {
+  font-size: 30px;
+  padding: 10px 20px;
+  background: #fff;
+  color: #616161;
+  font-weight: 500;
+  width: fit-content;
+  border-bottom: 3px solid #eb6c31;
+
+}
+
+.what-we-do-head-text p {
+  margin: 40px 0px;
+}
+
+.our-product-text p {
+  margin-bottom: 60px;
+}
+
+/* tabs */
+.tabs {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 4px 4px 0;
+  color: #616161;
+  background-color: #ffffff;
+  box-shadow: inset 0 0 0 1px #e0e0e0;
+  position: relative;
+  padding: 8px 16px 8px 16px !important;
+  line-height: 24px;
+  min-width: 88px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-radius: 0px !important;
+}
+
+.tabs:hover,
+.tabs.active {
+  transition: 0.3s ease-in;
+  box-shadow: inset 0 0 0 2px #eb6c31 !important;
+  background-color: #eb6c31;
+  color: #fff;
+}
+
+/* .what-to-do-header-image {
+  width: 40%;
+} */
+
+.stylish-box-wrapper {
+  display: table;
+  width: 100%;
+}
+
+.project-layout .project .post-body {
+  padding: 24px 10px;
+}
+
+.project-category a {
+  font-size: 14px !important;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  color: #9a9a9a;
+}
+
+.stylish-box-wrapper a {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+/* details button */
+
+.wrapper a {
+  padding: 13px 16px;
+  color: #9a9a9a;
+  font-size: 13px !important;
+  box-shadow: inset 0 0 0 1px #e0e0e0;
+  line-height: 40px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+.wrapper a span {
+  position: relative;
+  z-index: 2;
+}
+
+.wrapper a:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #eb6c31;
+  transition: all .35s;
+}
+
+.wrapper a:hover {
+  color: #fff;
+}
+
+.wrapper a:hover:after {
+  width: 100%;
+}
+
+/* details button end */
+
+/* how we are */
+.how-we-are-header-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url("/assets/images/group.jpg");
+  width: 100%;
+  height: 45vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.how-we-are-header-background p {
+  padding: 10px 20px;
+  background: #fff;
+  color: #000;
+  font-weight: 500;
+}
+
+.our-team-p {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.director-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.director-card .cursive {
+  font-family: cursive;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.director-card .name {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.director-card:nth-child(even) {
+  width: #fff;
+  flex-direction: row-reverse;
+}
+
+.director-card:nth-child(even) .outer-layer{
+  margin-right: auto;
+}
+.director-card:nth-child(odd) .outer-layer{
+  margin-left: auto;
+}
+.outer-layer {
+  position: relative;
+  
+  background: var(--gold);
+  border-radius: 50%;
+  border: 10px solid var(--gold);
+}
+
+.inner-layer {
+  position: absolute;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  border: 10px solid var(--gold);
+}
+
+.inner-layer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 10px solid var(--gold);
+}
+
+.director-section {
+  background: #000;
+  color: #fff;
+}
+
+/* how we are end */
+/* button End     */
 @media (max-width:991px) {
   .navigation {
     display: none;

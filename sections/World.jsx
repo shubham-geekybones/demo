@@ -35,7 +35,7 @@ const World = () => (
           <img src="people-03.png" alt="people" className="w-full h-full" />
         </div>
       </motion.div>
-      <div className='absolute bottom-5'>
+      <div className='absolute bottom-5 p-5 md:px-[100px]'>
         <div className='border'></div>
         <TypingText title="Operating Globally" fontSize={"text-[30px] md:text-[40px] !justify-start"} />
         <TitleText

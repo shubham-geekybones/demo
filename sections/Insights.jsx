@@ -14,7 +14,7 @@ const Insights = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto justify-center items-center flex flex-col how-we-operate`}
     >
-      <div className="flex flex-col justify-center items-center gap-[15px] ">
+      <div className="flex flex-col justify-center items-center gap-[15px] p-5 md:px-[150px]">
         <div className='border'></div>
         <TitleText className={`text-center`} title={<>How We Operate</>} />
         <TitleText

@@ -64,18 +64,13 @@ const Footer = () => {
                 <li>
                   <Link href="/">Home</Link>
                 </li>
-                {/* <li>
-                  <Link href="/about">We are Riverdale</Link>
+                <li>
+                  <Link href="/what-we-do">What we do</Link>
                 </li>
                 <li>
-                  <Link href="/our-business">Our Business</Link>
+                  <Link href="/who-we-are">Who we are</Link>
                 </li>
-                <li>
-                  <Link href="/what-is-value">What we value</Link>
-                </li>
-                <li>
-                  <Link href="/meet-our-team">Meet our team</Link>
-                </li> */}
+               
                 <li>
                   <Link href="/contact-us">Contact Us</Link>
                 </li>
