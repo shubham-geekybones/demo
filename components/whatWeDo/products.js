@@ -6,6 +6,7 @@ const Products = () => {
     const [filteredProduct, setfilteredProduct] = useState(products)
 
     useEffect(() => {
+        console.log("i am log")
         setfilteredProduct(products.filter((product, i) => {
             return product.category === "energy-products"
         }))
@@ -29,8 +30,8 @@ const Products = () => {
                 {Tabs.map((tab, i) => {
                     const { name, slug, isSelected } = tab
                     return (
-                        <div className={`tabs ${isSelected && "active"}`} key={i} onClick={() => handleClick(tab)}>
-                             <a href="#"><span> {name}</span></a>
+                        <div className={`tabs ${isSelected ? "active" : ""}`} key={i} onClick={() => handleClick(tab)}>
+                            <span> {name}</span>
                         </div>
                     )
                 })}
@@ -41,31 +42,31 @@ const Products = () => {
                         const { name, category, url, id, sources } = product
                         return (
                             <div className='product-list w-[100%] md:w-[30%] m-5' key={i}>
-                                <div class="post-inner et-item-inner et-clearfix">
-                                    <div class="post-image overlay-hover post-media">
-                                        <div class="post-image-overlay">
-                                            <div class="post-image-overlay-content">
-                                                <a class="overlay-read-more" href="https://transmart.ae/Product/sunflower-seeds/" title="Read more about Sunflower Seeds">
+                                <div className="post-inner et-item-inner et-clearfix">
+                                    <div className="post-image overlay-hover post-media">
+                                        <div className="post-image-overlay">
+                                            <div className="post-image-overlay-content">
+                                                <a className="overlay-read-more" href="https://transmart.ae/Product/sunflower-seeds/" title="Read more about Sunflower Seeds">
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="image-container">
-                                            <div class="image-loading">
+                                        <div className="image-container">
+                                            <div className="image-loading">
                                             </div>
-                                            <div class="image-preloader">
+                                            <div className="image-preloader">
                                             </div>
                                             <img width="100%" height="100%" src={url} alt={name} />
                                         </div>
                                     </div>
-                                    <div class="post-body et-clearfix mt-4">
-                                        <div class="post-body-inner-wrap">
-                                            <div class="post-body-inner">
-                                                <div class="stylish-box-wrapper">
-                                                    <div class="stylish-box">
-                                                        <div class="project-category stylish-dash">
+                                    <div className="post-body et-clearfix mt-4">
+                                        <div className="post-body-inner-wrap">
+                                            <div className="post-body-inner">
+                                                <div className="stylish-box-wrapper">
+                                                    <div className="stylish-box">
+                                                        <div className="project-category stylish-dash">
                                                             <a href="https://transmart.ae/Product-category/agro-commodities/" rel="tag">{sources}</a>
                                                         </div>
-                                                        <h4 class="post-title mt-2">
+                                                        <h4 className="post-title mt-2">
                                                             <a href="https://transmart.ae/Product/sunflower-seeds/" title="Read more about Sunflower Seeds" rel="bookmark">{name}</a>
                                                         </h4>
                                                     </div>
