@@ -16,7 +16,7 @@ const GetStarted = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8 who-we-are`}
+        className={`mx-auto flex lg:flex-row flex-col gap-8 who-we-are`}
       >
         <motion.div
           className="flex-[0.75] flex justify-center flex-col p-4 md:ml-[100px]"
@@ -25,7 +25,7 @@ const GetStarted = () => {
           <TitleText title={<>Who We Are</>} />
 
           <div className="mt-[31px] text-white text-[18px] md:text-[24px] flex flex-col max-w-[370px] gap-[24px]">
-            Our company engages in the trading of commodities and investments in related assets on a global scale.
+          Our Company is engaged in commodity trading with financial muscle in terms of Trade and Structured Finance.
           </div>
           <button className='relative learn-more p-3 mt-6 rounded bg-blue-500 hover:bg-blue-400 text-white 
         focus:shadow-outline font-bold cursor-pointer focus:outline-none'>

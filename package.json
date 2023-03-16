@@ -15,7 +15,9 @@
     "os": false
   },
   "dependencies": {
+    "@ant-design/icons": "^5.0.1",
     "@emailjs/browser": "^3.10.0",
+    "antd": "^5.3.1",
     "emailjs": "^4.0.1",
     "framer-motion": "^7.6.7",
     "fs": "^0.0.1-security",

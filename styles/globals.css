@@ -22,6 +22,7 @@ body {
 nav {
   width: 100%;
   z-index: 100000;
+  background: rgba(252, 253, 255, 0.57);
 }
 
 nav ul {
@@ -40,7 +41,7 @@ nav ul li a {
 }
 
 nav ul li:hover a {
-  color: rgb(244, 119, 119);
+  color: rgb(123, 49, 49);
 }
 
 .hero-gradient {
@@ -369,7 +370,6 @@ form {
 }
 
 #et-simple-braket-block-1 .braket-text {
-  font-size: 24px;
   font-weight: 400;
   line-height: 32px;
 }
@@ -377,7 +377,14 @@ form {
 .braket-text {
   padding: 32px 0 32px 40px;
 }
-
+.braket-text h3{
+  font-weight: 600;
+  line-height: initial;
+}
+.send-message{
+  border: 1px solid #fff;
+  padding: 10px;
+}
 .et-simple-braket-block .braket>div:last-child {
   top: auto;
   bottom: 0;
@@ -396,10 +403,11 @@ form {
 
 .what-we-do-header-background p {
   padding: 10px 20px;
-  background: #fff;
-  color: #000;
+  color: #ffffff;
   font-weight: 500;
 }
+
+.product-offerings {}
 
 /* image card */
 #loop-projects-1 .et-item {
@@ -422,15 +430,35 @@ form {
 }
 
 .image-container {
+  position: relative;
   width: 100%;
   height: auto;
 
+}
+
+.image-container .image-loading {
+  width: 100%;
+  z-index: 1000;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 500;
+  bottom: 0px;
+  background: #000000aa;
+  padding: 10px;
+  visibility: hidden;
+  opacity: 0;
+}
+.image-container:hover .image-loading{
+  transition: 0.4s ease-in-out;
+  visibility: visible;
+  opacity: 1;
 }
 
 .image-container img {
   aspect-ratio: 1.6;
 }
 
+.product-offerings-text,
 .what-we-do-head-text,
 .our-product-text {
   width: 100%;
@@ -439,6 +467,7 @@ form {
   align-items: center;
 }
 
+.product-offerings-text p,
 .what-we-do-head-text p,
 .our-product-text p {
   font-size: 30px;
@@ -448,11 +477,23 @@ form {
   font-weight: 500;
   width: fit-content;
   border-bottom: 3px solid #eb6c31;
+}
 
+.product-offerings {
+  font-size: 18px;
+  padding: 10px 20px;
+  background: #fff;
+  color: #616161;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
 
 .what-we-do-head-text p {
   margin: 40px 0px;
+}
+
+.product-offerings-text p {
+  margin-bottom: 20px;
 }
 
 .our-product-text p {
@@ -527,6 +568,12 @@ form {
   position: relative;
   transition: all .35s;
 }
+.download-button{
+  position: absolute;
+  bottom: 10px;
+  background: #1677ff;
+  right: 30px;
+}
 
 .wrapper a span {
   position: relative;
@@ -568,8 +615,7 @@ form {
 
 .how-we-are-header-background p {
   padding: 10px 20px;
-  background: #fff;
-  color: #000;
+  color: #ffffff;
   font-weight: 500;
 }
 
@@ -594,46 +640,33 @@ form {
 .director-card .name {
   font-weight: 600;
   font-size: 24px;
-  margin-bottom: 20px;
 }
 
-.director-card:nth-child(even) {
-  width: #fff;
-  flex-direction: row-reverse;
-}
-
-.director-card:nth-child(even) .outer-layer{
-  margin-right: auto;
-}
-.director-card:nth-child(odd) .outer-layer{
-  margin-left: auto;
-}
 .outer-layer {
   position: relative;
-  
-  background: var(--gold);
-  border-radius: 50%;
-  border: 10px solid var(--gold);
 }
 
 .inner-layer {
+  overflow: hidden;
   position: absolute;
-  padding: 10px;
   width: 100%;
   height: 100%;
-  border: 10px solid var(--gold);
 }
 
 .inner-layer img {
   width: 100%;
-  height: 100%;
+  height: 118%;
   object-fit: cover;
-  border-radius: 50%;
-  border: 10px solid var(--gold);
 }
 
-.director-section {
-  background: #000;
+.trade{
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url("/assets/images/send-message.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
 }
 

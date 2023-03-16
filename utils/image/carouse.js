@@ -9,6 +9,7 @@ const VISHALI_GOYAL = "/assets/members/vishali-goyal.jpeg"
 
 const SVG_IMAGE = "/assets/images/Co-working.png"
 const GROUP_IMAGE = "/assets/images/group.jpg"  //
+const SEND_MESSAGE = "/assets/images/send-message.webp"
 
 const JET_FUEL = "/assets/images/air-fuel.png"; //
 const DIESEL = "/assets/images/diesel.jpg"   // 

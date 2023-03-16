@@ -1,0 +1,41 @@
+import React from 'react'
+import { useRouter } from 'next/router'
+const Trade = () => {
+    const { push } = useRouter()
+    return (
+        <div className='trade'>
+            <div className='w-full flex justify-between items-center flex-wrap'>
+                <div className="w-[98%] md:w-[60%] pl-[50px] md:pl-[100px] flex justify-between items-center">
+                    <div id="et-simple-braket-block-1" className="et-simple-braket-block text-justify">
+                        <div className="braket">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div className="braket-text">
+                            <h2 className='text-[18px] md:text-[24px] mb-3'>Quick & Trustworthy</h2>
+                            <h3 className='text-[35px] md:text-[45px]'>
+                                Trade / Structured Finance Enquiry
+                            </h3>
+                            <h2 className='text-[18px] md:text-[24px] mt-3'>
+                                (To facilitate Trade worldwide)
+                            </h2>
+                        </div>
+                    </div>
+
+                </div>
+                <div className='w-[98%] md:w-[60%] px-[50px] md:px-[100px] pt-[50px]'>
+                    <div >
+                        <h2 className='text-[18px] md:text-[24px]'>
+                            Send us your Trade/structured Finance Inquiry
+                            We will be pleased to revert you at the earliest
+                        </h2>
+                    </div>
+                    <button className='send-message mt-4 text-[14px] md:text-[16px]' onClick={() => push('/contact-us')}>SEND MESSAGE</button>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Trade

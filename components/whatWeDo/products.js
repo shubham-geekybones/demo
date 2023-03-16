@@ -26,6 +26,14 @@ const Products = () => {
     }
     return (
         <>
+            <div className='product-offerings-text text-center'>
+                <p>
+                    PRODUCT OFFERINGS
+                </p>
+            </div>
+            <p className='text-center product-offerings'>
+                We trade in liquid and dry bulk commodities as per our product offerings.
+            </p>
             <div className='w-full flex justify-center items-center'>
                 {Tabs.map((tab, i) => {
                     const { name, slug, isSelected } = tab
@@ -46,14 +54,12 @@ const Products = () => {
                                     <div className="post-image overlay-hover post-media">
                                         <div className="post-image-overlay">
                                             <div className="post-image-overlay-content">
-                                                <a className="overlay-read-more" href="https://transmart.ae/Product/sunflower-seeds/" title="Read more about Sunflower Seeds">
-                                                </a>
+
                                             </div>
                                         </div>
                                         <div className="image-container">
-                                            <div className="image-loading">
-                                            </div>
-                                            <div className="image-preloader">
+                                            <div className="image-loading absolute">
+                                                {sources}
                                             </div>
                                             <img width="100%" height="100%" src={url} alt={name} />
                                         </div>
@@ -63,11 +69,11 @@ const Products = () => {
                                             <div className="post-body-inner">
                                                 <div className="stylish-box-wrapper">
                                                     <div className="stylish-box">
-                                                        <div className="project-category stylish-dash">
-                                                            <a href="https://transmart.ae/Product-category/agro-commodities/" rel="tag">{sources}</a>
-                                                        </div>
-                                                        <h4 className="post-title mt-2">
-                                                            <a href="https://transmart.ae/Product/sunflower-seeds/" title="Read more about Sunflower Seeds" rel="bookmark">{name}</a>
+                                                        {/* <div className="project-category stylish-dash">
+                                                            {sources}
+                                                        </div> */}
+                                                        <h4 className="post-title">
+                                                            {name}
                                                         </h4>
                                                     </div>
                                                     <div className="wrapper mt-2">

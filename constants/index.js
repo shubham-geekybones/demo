@@ -49,7 +49,7 @@ export const tabs = [
   },
   {
     id: "3",
-    name: "Petrochemical & Products",
+    name: "Petrochemical & Other Products",
     slug: "petrochemical-and-other-products",
     isSelected: false,
   },

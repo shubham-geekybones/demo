@@ -13,7 +13,7 @@ const World = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex flex-col`}
+      className={`mx-auto flex flex-col`}
     >
       <motion.div
         variants={fadeIn('up', 'tween', 0.3, 1)}
@@ -41,7 +41,7 @@ const World = () => (
         <TitleText
           title={(
             <>
-              Siddhi Global has a presence in the primary trading hubs and financial centers across the globe. Our approach involves forming partnerships and engaging in collaborative efforts with stakeholders worldwide to generate mutual benefits.
+              Siddhi Global- FZCO has a penetration in the primary trading hubs and financial centres across the globe. Our approach involves forming partnerships and engaging in collaborative efforts with stakeholders worldwide to generate mutually beneficial partnerships.
             </>
           )}
           fontSize="md:text-[24px] text-[18px]"

@@ -20,7 +20,7 @@ const Header = () => {
                             <div></div>
                             <div></div>
                         </div>
-                        <div className="braket-text">
+                        <div className="braket-text text-[18px] md:text-[24px]">
                             Having worldwide penetration in trade and expertise in structured finance; we can facilitate trading opportunities across the globe. We can provide value proposition by offering back to back Letter of Credit and other customized finacial solutions.
                         </div>
                     </div>

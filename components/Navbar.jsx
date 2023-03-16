@@ -50,11 +50,15 @@ const Footer = () => {
         <div className="footer-gradient  bg-primary-black" />
         <div className={`${styles.innerWidth} mx-auto flex flex-col`}>
           <div className="flex items-center justify-between flex-wrap gap-5">
+            <div className='flex justify-center items-center text-[#fff] font-bold'>
             <img
               src="/logo.png"
               alt="search"
               className="w-[74px] h-[74px] h:w-[114px] h:h-[114px] object-contain"
             />
+              <p>Siddhi Global-FZCO</p>
+            </div>
+           
             <div className="flex items-center justify-between flex-wrap z-10 gap-4">
               <motion.ul
                 initial={false}

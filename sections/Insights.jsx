@@ -12,7 +12,7 @@ const Insights = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto justify-center items-center flex flex-col how-we-operate`}
+      className={`mx-auto justify-center items-center flex flex-col how-we-operate`}
     >
       <div className="flex flex-col justify-center items-center gap-[15px] p-5 md:px-[150px]">
         <div className='border'></div>
