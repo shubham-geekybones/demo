@@ -61,42 +61,42 @@ export const products = [
     url: IMAGES.JET_FUEL,
     name: "Jet Fuel",
     category: "energy-products",
-    sources: "Source of - Rotterdam(Netherland)"
+    sources: "Source of - Rotterdam (Netherland)"
   },
   {
     id: "2",
     url: IMAGES.DIESEL,
     name: "Diesel",
     category: "energy-products",
-    sources: "Source of - Rotterdam (Netherland), Kazakhstan(Central Asia),Indonesia(Asia)"
+    sources: "Source of - Rotterdam (Netherland), Kazakhstan (Central Asia),Indonesia(Asia)"
   },
   {
     id: "3",
     url: IMAGES.CRUID_OIL,
     name: "Crude oil",
     category: "energy-products",
-    sources: "Source of - Oman(middle east),  Nigeria(west Africa)"
+    sources: "Source of - Oman (middle east),  Nigeria(west Africa)"
   },
   {
     id: "4",
     url: IMAGES.GASOLINE,
     name: "Gasoline",
     category: "energy-products",
-    sources: "Source of - Rotterdam (Netherland), Kazakhstan(Central Asia),Indonesia(Asia)"
+    sources: "Source of - Rotterdam (Netherland), Kazakhstan (Central Asia),Indonesia (Asia)"
   },
   {
     id: "5",
     url: IMAGES.LPG,
     name: "LPG",
     category: "energy-products",
-    sources: "Source of - Rotterdam (Netherland), Kazakhstan(Central Asia),Indonesia(Asia)"
+    sources: "Source of - Rotterdam (Netherland), Kazakhstan (Central Asia),Indonesia (Asia)"
   },
   {
     id: "6",
     url: IMAGES.CNG,
     name: "CNG",
     category: "energy-products",
-    sources: "Source of - Rotterdam (Netherland), Kazakhstan(Central Asia),Indonesia(Asia)"
+    sources: "Source of - Rotterdam (Netherland), Kazakhstan (Central Asia), Indonesia (Asia)"
   },
   {
     id: "7",
@@ -117,7 +117,7 @@ export const products = [
     url: IMAGES.STEAM_COAL,
     name: "Steam Coal",
     category: "energy-products",
-    sources: "Source of - Indonesia(asia),south Africa, Mozambique(east Africa)"
+    sources: "Source of - Indonesia (asia),south Africa, Mozambique (east Africa)"
   },
   {
     id: "10",
@@ -131,28 +131,28 @@ export const products = [
     url: IMAGES.COAL_ANTHRACITE,
     name: "Coal Anthracite",
     category: "energy-products",
-    sources: "Source of - Peru(south America),CIS countries"
+    sources: "Source of - Peru (south America), CIS countries"
   },
   {
     id: "12",
     url: IMAGES.PETROLEUM_COKE,
     name: "Petroleum Coke",
     category: "energy-products",
-    sources: "Source of - Rotterdam (Netherland), Kazakhstan(Central Asia),Indonesia(Asia)"
+    sources: "Source of - Rotterdam (Netherland), Kazakhstan (Central Asia),Indonesia (Asia)"
   },
   {
     id: "13",
     url: IMAGES.COPPER_CATHODE,
     name: "Copper Cathode",
     category: "metal-products",
-    sources: "Source of-africa,CIS countries"
+    sources: "Source of-africa, CIS countries"
   },
   {
     id: "14",
     url: IMAGES.COPPER_ROD,
     name: "Copper Rod",
     category: "metal-products",
-    sources: "Source of- africa,CIS countries"
+    sources: "Source of- africa, CIS countries"
   },
   {
     id: "15",
@@ -173,28 +173,28 @@ export const products = [
     url: IMAGES.ALUMINIUM_SCRAP,
     name: "Aluminium Scrap",
     category: "metal-products",
-    sources: "Source of-rotterdam(netherland),Barcelona(spain)"
+    sources: "Source of-rotterdam (netherland), Barcelona (spain)"
   },
   {
     id: "18",
     url: IMAGES.COPPER_SCRAP,
     name: "Copper Scrap",
     category: "metal-products",
-    sources: "Source of- africa,CIS countries"
+    sources: "Source of- africa, CIS countries"
   },
   {
     id: "19",
     url: IMAGES.ROCK_PHOSPHATE,
     name: "Rock Phosphate",
     category: "petrochemical-and-other-products",
-    sources: "Source of- Egypt,Jordan(middle east),Syria(miidle east"
+    sources: "Source of- Egypt,Jordan (middle east), Syria (miidle east"
   },
   {
     id: "20",
     url: IMAGES.UREA,
     name: "Urea",
     category: "petrochemical-and-other-products",
-    sources: "Source of-kazakhstan(central asia),Uzbekistan(central asia),Qatar(middle east)"
+    sources: "Source of-kazakhstan (central asia),Uzbekistan (central asia),Qatar (middle east)"
   },
   {
     id: "21",
@@ -208,14 +208,14 @@ export const products = [
     url: IMAGES.MOP,
     name: "MOP",
     category: "petrochemical-and-other-products",
-    sources: "Source of-Jordan(middle east), former CIS countries"
+    sources: "Source of-Jordan (middle east), former CIS countries"
   },
   {
     id: "23",
     url: IMAGES.CRUDE_PALM_OIL,
     name: "Crude Palm Oil",
     category: "petrochemical-and-other-products",
-    sources: "Source of- indonesia(asia), Malaysia(asia)"
+    sources: "Source of- indonesia (asia), Malaysia (asia)"
   },
   {
     id: "24",
