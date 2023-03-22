@@ -75,21 +75,21 @@ export const products = [
     url: IMAGES.CRUID_OIL,
     name: "Crude oil",
     category: "energy-products",
-    sources: "Source of - Oman (middle east),  Nigeria(west Africa)"
+    sources: "Source of - Oman (middle east),  Nigeria (west Africa)"
   },
   {
     id: "4",
     url: IMAGES.GASOLINE,
     name: "Gasoline",
     category: "energy-products",
-    sources: "Source of - Rotterdam (Netherland), Kazakhstan (Central Asia),Indonesia (Asia)"
+    sources: "Source of - Rotterdam (Netherland), Kazakhstan (Central Asia), Indonesia (Asia)"
   },
   {
     id: "5",
     url: IMAGES.LPG,
     name: "LPG",
     category: "energy-products",
-    sources: "Source of - Rotterdam (Netherland), Kazakhstan (Central Asia),Indonesia (Asia)"
+    sources: "Source of - Rotterdam (Netherland), Kazakhstan (Central Asia), Indonesia (Asia)"
   },
   {
     id: "6",
@@ -117,7 +117,7 @@ export const products = [
     url: IMAGES.STEAM_COAL,
     name: "Steam Coal",
     category: "energy-products",
-    sources: "Source of - Indonesia (asia),south Africa, Mozambique (east Africa)"
+    sources: "Source of - Indonesia (asia), south Africa, Mozambique (east Africa)"
   },
   {
     id: "10",
@@ -138,7 +138,7 @@ export const products = [
     url: IMAGES.PETROLEUM_COKE,
     name: "Petroleum Coke",
     category: "energy-products",
-    sources: "Source of - Rotterdam (Netherland), Kazakhstan (Central Asia),Indonesia (Asia)"
+    sources: "Source of - Rotterdam (Netherland), Kazakhstan (Central Asia), Indonesia (Asia)"
   },
   {
     id: "13",
@@ -194,7 +194,7 @@ export const products = [
     url: IMAGES.UREA,
     name: "Urea",
     category: "petrochemical-and-other-products",
-    sources: "Source of-kazakhstan (central asia),Uzbekistan (central asia),Qatar (middle east)"
+    sources: "Source of-kazakhstan (central asia), Uzbekistan (central asia), Qatar (middle east)"
   },
   {
     id: "21",
