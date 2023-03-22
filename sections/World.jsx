@@ -7,7 +7,7 @@ import { TitleText, TypingText } from '../components';
 import { fadeIn, staggerContainer } from '../utils/motion';
 
 const World = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section className={`relative z-10`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -17,11 +17,9 @@ const World = () => (
     >
       <motion.div
         variants={fadeIn('up', 'tween', 0.3, 1)}
-        className="relative mt-[68px] flex w-full h-[550px]"
+        className="relative flex w-full h-[80vh]"
       >
-        <img src="https://mont-fort.com/wp-content/uploads/2021/08/slider_new_map.png" className="ls-layer w-full h-full object-cover" alt="" decoding="async" loading="lazy"
-          data-ls="durationin:1500;easingin:easeOutQuint;scalexin:3;scaleyin:3;transformoriginin:50% 50% -500px;durationout:1500;scalexout:0.5;scaleyout:0.5;parallax:true;parallaxlevel:10;"
-          data-ls-slidein="1" data-ls-slideout="1" data-ls-active=""></img>
+        <img src="/assets/images/global.jpg" className="ls-layer w-full h-full object-cover" alt="" decoding="async" ></img>
 
         <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img src="people-01.png" alt="people" className="w-full h-full" />

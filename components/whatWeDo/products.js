@@ -69,16 +69,14 @@ const Products = () => {
                                             <div className="post-body-inner">
                                                 <div className="stylish-box-wrapper">
                                                     <div className="stylish-box">
-                                                        {/* <div className="project-category stylish-dash">
-                                                            {sources}
-                                                        </div> */}
+                                
                                                         <h4 className="post-title">
                                                             {name}
                                                         </h4>
                                                     </div>
-                                                    <div className="wrapper mt-2">
+                                                    {/* <div className="wrapper mt-2">
                                                         <a href="#"><span>Details</span></a>
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>

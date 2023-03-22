@@ -45,7 +45,7 @@ const Footer = () => {
         variants={footerVariants}
         initial="hidden"
         whileInView="show"
-        className={`${styles.xPaddings} relative`}
+        className={`${styles.xPaddings} fixed`}
       >
         <div className="footer-gradient  bg-primary-black" />
         <div className={`${styles.innerWidth} mx-auto flex flex-col`}>
@@ -56,7 +56,7 @@ const Footer = () => {
               alt="search"
               className="w-[74px] h-[74px] h:w-[114px] h:h-[114px] object-contain"
             />
-              <p>Siddhi Global-FZCO</p>
+              <p className='md:text-[20px]'>Siddhi Global-FZCO</p>
             </div>
            
             <div className="flex items-center justify-between flex-wrap z-10 gap-4">
@@ -93,7 +93,6 @@ const Footer = () => {
               </motion.div>
             </div>
           </div>
-          <div className="h-[2px] bg-white opacity-10" />
         </div>
       </motion.nav>
     </div>

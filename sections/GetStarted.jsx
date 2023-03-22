@@ -16,11 +16,9 @@ const GetStarted = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`mx-auto flex lg:flex-row flex-col gap-8 who-we-are`}
+        className={`mx-auto flex justify-end items-center gap-8 who-we-are`}
       >
-        <motion.div
-          className="flex-[0.75] flex justify-center flex-col p-4 md:ml-[100px]"
-        >
+        <motion.div className='px-[10px] mr-[20px] md:mr-[100px]'>
           <div className='border'></div>
           <TitleText title={<>Who We Are</>} />
 

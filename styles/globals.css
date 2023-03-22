@@ -20,10 +20,14 @@ body {
 }
 
 nav {
+  top: 0;
   width: 100%;
   z-index: 100000;
-  background: rgba(252, 253, 255, 0.57);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.384);
+  background: #0000007c;
+  backdrop-filter: blur(10px);
 }
+
 
 nav ul {
   display: flex;
@@ -36,12 +40,12 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #ffffff;
   transition: 0.3 ease-in;
 }
 
 nav ul li:hover a {
-  color: rgb(123, 49, 49);
+  color: rgb(120, 183, 255);
 }
 
 .hero-gradient {
@@ -190,13 +194,32 @@ nav ul li:hover a {
 }
 
 .background-video {
-  background-attachment: fixed;
+  position: absolute;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.rightHalf 
+{
+    position:absolute;
+    left: 0px;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    border-bottom-left-radius: 50px;
+}
+
+.rightHalf video 
+{
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: fill;
 }
 
 .home-text {
   width: 100%;
   height: 100vh;
-  background: #0000008c;
+  background: #00000073;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -262,60 +285,78 @@ nav ul li:hover a {
 }
 
 .contact-us-div {
+  display: flex;
+  align-items: center;
   top: 0;
   position: absolute;
   padding: 20px 0;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.334);
-  display: flex;
-  justify-content: space-around;
 }
 
 
 .contact-us.card {
+  position: absolute;
+  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.75);
-  min-width: 250px;
+  background: rgba(255, 255, 255, 0.511);
+  min-width: 100%;
 }
 
 .contact-us.card p {
   color: #2c3e50;
-  font-size: 12px;
+  font-size: 14px;
   padding: 5px 0;
-
 }
 
 .section-one-padding {
   padding: 0 20px;
 }
 
-.contact-form {
-  min-width: 400px;
+.contact-form-download,
+.office-contact {
+  width: 49%;
+  /* padding: 0 100px; */
 }
+.office-contact {
+  position: relative;
+  height: 80vh;
+}
+/* .contact-form {
+  padding: 100px;
+} */
 
 .contact-us.card p:first-child {
   font-weight: bold;
 }
 
 .contact-us-section {
+  margin-top: 100px;
   position: relative;
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
 }
 
-.contact-us-section video {
-  position: relative;
+.contact-us-div video {
   width: 100%;
   height: 100vh;
 }
 
-form {
-  background: rgba(255, 255, 255, 0.75)
+.padding-contact{
+  padding: 20px 50px;
+}
+
+.bg-curve-shape {
+  padding: 10px 30px;
+  width:100%;
+  height: 80vh;
+  background: #ECEFF0;
+  border-top-right-radius: 40px;
 }
 
 .et-simple-braket-block {
@@ -374,17 +415,18 @@ form {
   line-height: 32px;
 }
 
-.braket-text {
-  padding: 32px 0 32px 40px;
-}
-.braket-text h3{
+
+.braket-text h3 {
   font-weight: 600;
   line-height: initial;
+  word-break: break-all;
 }
-.send-message{
+
+.send-message {
   border: 1px solid #fff;
   padding: 10px;
 }
+
 .et-simple-braket-block .braket>div:last-child {
   top: auto;
   bottom: 0;
@@ -448,7 +490,8 @@ form {
   visibility: hidden;
   opacity: 0;
 }
-.image-container:hover .image-loading{
+
+.image-container:hover .image-loading {
   transition: 0.4s ease-in-out;
   visibility: visible;
   opacity: 1;
@@ -476,7 +519,7 @@ form {
   color: #616161;
   font-weight: 500;
   width: fit-content;
-  border-bottom: 3px solid #eb6c31;
+  border-bottom: 3px solid #000;
 }
 
 .product-offerings {
@@ -490,6 +533,10 @@ form {
 
 .what-we-do-head-text p {
   margin: 40px 0px;
+}
+
+.contact-us-section .product-offerings-text{
+margin-top: 50px;
 }
 
 .product-offerings-text p {
@@ -568,11 +615,12 @@ form {
   position: relative;
   transition: all .35s;
 }
-.download-button{
-  position: absolute;
-  bottom: 10px;
+
+.download-button {
+  width: fit-content;
+  position: relative;
   background: #1677ff;
-  right: 30px;
+
 }
 
 .wrapper a span {
@@ -659,7 +707,7 @@ form {
   object-fit: cover;
 }
 
-.trade{
+.trade {
   display: flex;
   align-items: center;
   height: 80vh;
@@ -678,7 +726,7 @@ form {
   }
 
   .contact-us.card {
-    min-width: 350px;
+    width: 100%;
   }
 
   .contact-form {
@@ -686,9 +734,28 @@ form {
     order: 2;
   }
 
-  .contact-us-section video {
-    position: relative;
+
+}
+
+@media (max-width:778px) {
+
+  .contact-form-download,
+  .office-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 110vh;
+    margin-top: 10px;
+  }
+
+  .padding-contact{
+    padding: 10px;
+  }
+  
+  .bg-curve-shape {
+    padding: 0px 0px;
+  }
+  .office-contact {
+    height: 410px;
   }
 }

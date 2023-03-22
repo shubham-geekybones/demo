@@ -14,10 +14,10 @@ const WhatsNew = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`w-full mx-auto flex items-center justify-end lg:flex-row flex-col gap-8 who-we-do`}
+        className={`w-full mx-auto flex items-center justify-end who-we-do`}
       >
         <motion.div
-          className="flex flex-col p-4 md:mr-[120px]"
+          className="px-[10px] mr-[20px] md:mr-[100px]"
         >
           <div className='border'></div>
           <TitleText title={<>What We Do</>} />

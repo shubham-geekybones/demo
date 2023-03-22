@@ -21,7 +21,7 @@ const CarouselMain = () => {
                     viewport={{ once: false, amount: 0.25 }}
                     className={`${styles.innerWidth} text-center ${styles.flexCenter} flex-col section-one-padding`}
                 >
-                    <TitleText className={`text-center`} title={<>Presence worldwide across both developed and developing markets</>} />
+                    <TitleText className={`text-center`} title={<>Penetrating worldwide across both developed and developing markets</>} />
                     <TypingText title="Learn More about Siddhi Global FZCO" />
                 </motion.div>
             </div>

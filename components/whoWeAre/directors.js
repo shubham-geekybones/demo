@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { members } from '../../constants'
+import { LinkedinOutlined } from '@ant-design/icons'
 import Modals from '../modal';
 
 const Directors = () => {
@@ -35,7 +36,7 @@ const Directors = () => {
                                             {positon}
                                         </p>
                                     </div>
-
+                                    <LinkedinOutlined style={{ fontSize: "24px", textAlign: "center" }} />
                                 </div>
                             </div>
                         )

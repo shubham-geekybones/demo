@@ -6,6 +6,7 @@ export const images = [
 const RAJINDER_GOEL = "/assets/members/rajinder-goel.jpeg"
 const RAMESH_KHATTAR = "/assets/members/ramesh-khattar.jpeg"
 const VISHALI_GOYAL = "/assets/members/vishali-goyal.jpeg"
+const VIJAY_KAPUR = "/assets/members/vijay-kapur.jpeg"
 
 const SVG_IMAGE = "/assets/images/Co-working.png"
 const GROUP_IMAGE = "/assets/images/group.jpg"  //
@@ -36,9 +37,10 @@ const UREA = "/assets/images/urrea.jpg"  //
 const DAP = "/assets/images/dap.webp" //
 const MOP = "/assets/images/mop.jpg"  //
 const CRUDE_PALM_OIL = "/assets/images/crude-palm-oil.jpg"  //
-const SUNFLOWER_OIL = "/assets/images/sunflower.jpg"  //
+const SUNFLOWER_OIL = "/assets/images/sunflower.webp"  //
 
 export default {
+  VIJAY_KAPUR,
   RAJINDER_GOEL,
   RAMESH_KHATTAR,
   VISHALI_GOYAL,

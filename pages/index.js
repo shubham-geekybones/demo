@@ -12,7 +12,7 @@ const Home = () => (
     </div>
     <World />
     <div className="relative">
-      <Insights />
+      {/* <Insights /> */}
       <Trade />
       {/* <Feedback /> */}
     </div>

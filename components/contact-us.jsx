@@ -27,7 +27,7 @@ const ContactUS = () => {
 
     return (
         <>
-            <form ref={form} onSubmit={handleSubmit(onSubmit)} className='contact-form m-5 md:mt-24 flex flex-col p-5  mb-10'>
+            <form ref={form} onSubmit={handleSubmit(onSubmit)} className='contact-form flex flex-col p-5  mb-10'>
                 <h4 className='text-3xl font-bold'>Message Here</h4>
                 <hr className='py-3 mt-2' />
 
