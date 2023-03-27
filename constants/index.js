@@ -5,7 +5,7 @@ export const constantsUs = [
     id: '1',
     country: 'Dubai, UAE',
     branch: 'CORPORATE HEADQUARTERS',
-    phoneNo: 'Phone:+91 9811025792',
+    phoneNo: 'Phone:+97 588142255',
     emailId: 'rajinder@siddhi.global',
     block: 'www.siddhi.global',
     area: 'IFZA Properties, Dubai Silicon',
@@ -61,168 +61,168 @@ export const products = [
     url: IMAGES.JET_FUEL,
     name: "Jet Fuel",
     category: "energy-products",
-    sources: "Source of - Rotterdam (Netherland)"
+    sources: "Sourced from - Rotterdam"
   },
   {
     id: "2",
     url: IMAGES.DIESEL,
     name: "Diesel",
     category: "energy-products",
-    sources: "Source of - Rotterdam (Netherland), Kazakhstan (Central Asia),Indonesia(Asia)"
+    sources: "Sourced from - Rotterdam, Kazakhstan ,Indonesia"
   },
   {
     id: "3",
     url: IMAGES.CRUID_OIL,
     name: "Crude oil",
     category: "energy-products",
-    sources: "Source of - Oman (middle east),  Nigeria (west Africa)"
+    sources: "Sourced from - Oman,  Nigeria"
   },
   {
     id: "4",
     url: IMAGES.GASOLINE,
     name: "Gasoline",
     category: "energy-products",
-    sources: "Source of - Rotterdam (Netherland), Kazakhstan (Central Asia), Indonesia (Asia)"
+    sources: "Sourced from - Rotterdam, Kazakhstan, Indonesia"
   },
   {
     id: "5",
     url: IMAGES.LPG,
     name: "LPG",
     category: "energy-products",
-    sources: "Source of - Rotterdam (Netherland), Kazakhstan (Central Asia), Indonesia (Asia)"
+    sources: "Sourced from - Rotterdam, Kazakhstan, Indonesia"
   },
   {
     id: "6",
     url: IMAGES.CNG,
     name: "CNG",
     category: "energy-products",
-    sources: "Source of - Rotterdam (Netherland), Kazakhstan (Central Asia), Indonesia (Asia)"
+    sources: "Sourced from - Rotterdam, Kazakhstan, Indonesia"
   },
   {
     id: "7",
     url: IMAGES.BASE_OIL,
     name: "Base Oil",
     category: "energy-products",
-    sources: "Source of - Gulf"
+    sources: "Sourced from - Gulf"
   },
   {
     id: "8",
     url: IMAGES.LITHIUM,
     name: "Lithium",
     category: "energy-products",
-    sources: "Source of - Africa"
+    sources: "Sourced from - Africa"
   },
   {
     id: "9",
     url: IMAGES.STEAM_COAL,
     name: "Steam Coal",
     category: "energy-products",
-    sources: "Source of - Indonesia (asia), south Africa, Mozambique (east Africa)"
+    sources: "Sourced from - Indonesia, south Africa, Mozambique"
   },
   {
     id: "10",
     url: IMAGES.METALLURGICAL_COAL,
     name: "Metallurgical Coal",
     category: "energy-products",
-    sources: "Source of -CIS Countries"
+    sources: "Sourced from -CIS Countries"
   },
   {
     id: "11",
     url: IMAGES.COAL_ANTHRACITE,
     name: "Coal Anthracite",
     category: "energy-products",
-    sources: "Source of - Peru (south America), CIS countries"
+    sources: "Sourced from - Peru, CIS countries"
   },
   {
     id: "12",
     url: IMAGES.PETROLEUM_COKE,
     name: "Petroleum Coke",
     category: "energy-products",
-    sources: "Source of - Rotterdam (Netherland), Kazakhstan (Central Asia), Indonesia (Asia)"
+    sources: "Sourced from - Rotterdam, Kazakhstan, Indonesia"
   },
   {
     id: "13",
     url: IMAGES.COPPER_CATHODE,
     name: "Copper Cathode",
     category: "metal-products",
-    sources: "Source of-africa, CIS countries"
+    sources: "Sourced from-africa, CIS countries"
   },
   {
     id: "14",
     url: IMAGES.COPPER_ROD,
     name: "Copper Rod",
     category: "metal-products",
-    sources: "Source of- africa, CIS countries"
+    sources: "Sourced from- africa, CIS countries"
   },
   {
     id: "15",
     url: IMAGES.ALUMINA,
     name: "Alumina",
     category: "metal-products",
-    sources: "ASource of-india"
+    sources: "ASourced from-india"
   },
   {
     id: "16",
     url: IMAGES.STEEL_SCRAP,
     name: "Steel Scrap",
     category: "metal-products",
-    sources: "Source of-middle east , Europe"
+    sources: "Sourced from-middle east , Europe"
   },
   {
     id: "17",
     url: IMAGES.ALUMINIUM_SCRAP,
     name: "Aluminium Scrap",
     category: "metal-products",
-    sources: "Source of-rotterdam (netherland), Barcelona (spain)"
+    sources: "Sourced from-rotterdam, Barcelona"
   },
   {
     id: "18",
     url: IMAGES.COPPER_SCRAP,
     name: "Copper Scrap",
     category: "metal-products",
-    sources: "Source of- africa, CIS countries"
+    sources: "Sourced from- africa, CIS countries"
   },
   {
     id: "19",
     url: IMAGES.ROCK_PHOSPHATE,
     name: "Rock Phosphate",
     category: "petrochemical-and-other-products",
-    sources: "Source of- Egypt,Jordan (middle east), Syria (miidle east"
+    sources: "Sourced from- Egypt,Jordan, Syria"
   },
   {
     id: "20",
     url: IMAGES.UREA,
     name: "Urea",
     category: "petrochemical-and-other-products",
-    sources: "Source of-kazakhstan (central asia), Uzbekistan (central asia), Qatar (middle east)"
+    sources: "Sourced from-kazakhstan, Uzbekistan, Qatar"
   },
   {
     id: "21",
     url: IMAGES.DAP,
     name: "DAP",
     category: "petrochemical-and-other-products",
-    sources: "Source of-GCC countries and CIS countries"
+    sources: "Sourced from-GCC countries and CIS countries"
   },
   {
     id: "22",
     url: IMAGES.MOP,
     name: "MOP",
     category: "petrochemical-and-other-products",
-    sources: "Source of-Jordan (middle east), former CIS countries"
+    sources: "Sourced from-Jordan, former CIS countries"
   },
   {
     id: "23",
     url: IMAGES.CRUDE_PALM_OIL,
     name: "Crude Palm Oil",
     category: "petrochemical-and-other-products",
-    sources: "Source of- indonesia (asia), Malaysia (asia)"
+    sources: "Sourced from- indonesia, Malaysia"
   },
   {
     id: "24",
     url: IMAGES.SUNFLOWER_OIL,
     name: "Sunflower Oil",
     category: "petrochemical-and-other-products",
-    sources: "Source of-CIS countries"
+    sources: "Sourced from-CIS countries"
   },
 ]
 

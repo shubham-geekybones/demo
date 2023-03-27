@@ -24,7 +24,7 @@ nav {
   width: 100%;
   z-index: 100000;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.384);
-  background: #0000007c;
+  background: #ffffff7c;
   backdrop-filter: blur(10px);
 }
 
@@ -35,17 +35,20 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 10px;
+  margin: 0 18px;
   z-index: 10000;
 }
 
 nav ul li a {
-  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  color: #224283;
   transition: 0.3 ease-in;
+  text-transform: uppercase;
 }
 
 nav ul li:hover a {
-  color: rgb(120, 183, 255);
+  color: rgb(10, 124, 255);
 }
 
 .hero-gradient {
@@ -259,7 +262,7 @@ nav ul li:hover a {
 }
 
 .learn-more {
-  width: 320px;
+  width: 330px;
 }
 
 .navigation {
@@ -315,7 +318,7 @@ nav ul li:hover a {
 }
 
 .section-one-padding {
-  padding: 0 20px;
+  padding: 0 100px;
 }
 
 .contact-form-download,
@@ -419,7 +422,7 @@ nav ul li:hover a {
 .braket-text h3 {
   font-weight: 600;
   line-height: initial;
-  word-break: break-all;
+  text-align: initial;
 }
 
 .send-message {
@@ -448,8 +451,6 @@ nav ul li:hover a {
   color: #ffffff;
   font-weight: 500;
 }
-
-.product-offerings {}
 
 /* image card */
 #loop-projects-1 .et-item {
@@ -523,11 +524,10 @@ nav ul li:hover a {
 }
 
 .product-offerings {
-  font-size: 18px;
+  font-size: 24px;
   padding: 10px 20px;
   background: #fff;
   color: #616161;
-  font-weight: 500;
   margin-bottom: 20px;
 }
 
@@ -559,8 +559,8 @@ margin-top: 50px;
   padding: 8px 16px 8px 16px !important;
   line-height: 24px;
   min-width: 88px;
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 500;
   letter-spacing: 0.5px;
   border-radius: 0px !important;
 }
@@ -747,11 +747,19 @@ margin-top: 50px;
     width: 100%;
     margin-top: 10px;
   }
-
+  .tabs {
+   
+    font-weight: 300;
+  }
+  .product-offerings {
+    font-size: 18px;
+  }
   .padding-contact{
     padding: 10px;
   }
-  
+  .section-one-padding {
+    padding: 0 20px;
+  }
   .bg-curve-shape {
     padding: 0px 0px;
   }

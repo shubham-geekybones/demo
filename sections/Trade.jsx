@@ -19,10 +19,11 @@ const Trade = () => {
                     </div>
 
                 </div>
-                <div className='w-[98%] md:w-[60%] px-[30px] md:px-[100px] pt-[50px]'>
+                <div className='w-[98%] md:w-[60%] px-[30px] md:px-[100px] pt-[25px]'>
                     <div >
                         <h2 className='text-[18px] md:text-[24px]'>
-                            Send us your Trade/structured Finance Inquiry
+                            Send us your Trade / Structured Finance Enquiry.
+                            <br></br>
                             We will be pleased to revert you at the earliest
                         </h2>
                     </div>

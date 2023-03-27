@@ -22,7 +22,7 @@ const CarouselMain = () => {
                     className={`${styles.innerWidth} text-center ${styles.flexCenter} flex-col section-one-padding`}
                 >
                     <TitleText className={`text-center`} title={<>Penetrating worldwide across both developed and developing markets</>} />
-                    <TypingText title="Learn More about Siddhi Global FZCO" />
+                    <TypingText textStyles="mt-[10px]" title="Learn More about Siddhi Global FZCO" />
                 </motion.div>
             </div>
         </div>

@@ -3,9 +3,10 @@
 import { motion } from 'framer-motion';
 import { textContainer, textVariant2 } from '../utils/motion';
 
-export const TypingText = ({ title, textStyles, fontSize }) => (
+export const TypingText = ({ title, textStyles, fontSize,onClick }) => (
   <motion.p
     variants={textContainer}
+    onClick={onClick}
     className={`flex flex-wrap justify-center font-normal ${fontSize ? fontSize : 'text-[24px]'} text-white ${textStyles}`}
   >
     {Array.from(title).map((letter, index) => (

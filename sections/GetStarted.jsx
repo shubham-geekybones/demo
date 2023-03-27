@@ -6,6 +6,7 @@ import styles from '../styles';
 import { TitleText, TypingText } from '../components';
 import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 
 const GetStarted = () => {
   const { push } = useRouter()

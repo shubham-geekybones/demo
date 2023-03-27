@@ -1,17 +1,21 @@
+import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
 import { products, tabs } from '../../constants'
 
 const Products = () => {
+    const { query } = useRouter()
     const [Tabs, setTabs] = useState(tabs)
     const [filteredProduct, setfilteredProduct] = useState(products)
 
     useEffect(() => {
-        console.log("i am log")
         setfilteredProduct(products.filter((product, i) => {
             return product.category === "energy-products"
         }))
     }, [])
 
+    useEffect(() => {
+        query?.product && window.scrollTo({ top: 750, left: 0, behavior: "smooth" })
+    }, [query.product])
 
     const handleClick = (selectedTab) => {
         setTabs(Tabs.map((tab, i) => {
@@ -34,7 +38,7 @@ const Products = () => {
             <p className='text-center product-offerings'>
                 We trade in liquid and dry bulk commodities as per our product offerings.
             </p>
-            <div className='w-full flex justify-center items-center'>
+            <div className='w-full flex justify-center items-center flex-col md:flex-row'>
                 {Tabs.map((tab, i) => {
                     const { name, slug, isSelected } = tab
                     return (
@@ -69,7 +73,7 @@ const Products = () => {
                                             <div className="post-body-inner">
                                                 <div className="stylish-box-wrapper">
                                                     <div className="stylish-box">
-                                
+
                                                         <h4 className="post-title">
                                                             {name}
                                                         </h4>

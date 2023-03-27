@@ -54,10 +54,10 @@ const ContactUs = () => {
                     </p>
                 </div>
                 <p className='text-center product-offerings'>
-                    We trade in liquid and dry bulk commodities as per our product offerings.
+                    To facilitate the trade deal, please fill up the details in deal sheet for further processing and email us.
                 </p>
-                <Button className="download-button" shape="round" type="primary" icon={<DownloadOutlined className='mr-1'/>} size={size}>
-                   <a href='assets/deal-sheet.docx' download>Download Deal Sheet</a>
+                <Button className="download-button" shape="round" type="primary" icon={<DownloadOutlined className='mr-1' />} size={size}>
+                    <a href='assets/deal-sheet.docx' download>Download Deal Sheet</a>
                 </Button>
             </div>
         </section>

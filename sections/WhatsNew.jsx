@@ -23,12 +23,18 @@ const WhatsNew = () => {
           <TitleText title={<>What We Do</>} />
 
           <div className="mt-[31px] text-white text-[18px] md:text-[24px] flex flex-col max-w-[370px] gap-[24px]">
-          Having worldwide penetration in Trade and expertise in Structured Finance ; we facilitate trading opportunities across the globe.<br></br>We trade in liquid and dry bulk commodities as per our product offering
+            Having worldwide penetration in Trade and expertise in Structured Finance, we facilitate trading opportunities across the globe.<br></br>We trade in liquid and dry bulk commodities as per our product offering
           </div>
-          <button onClick={() => push('/what-we-do')} className='learn-more p-3 mt-6 rounded bg-blue-500 hover:bg-blue-400 text-white 
+          <div className='flex flex-col'>
+            <button onClick={() => push('/what-we-do')} className='learn-more p-3 mt-6 rounded bg-blue-500 hover:bg-blue-400 text-white 
         focus:shadow-outline font-bold cursor-pointer focus:outline-none'>
-            <TypingText title="LEARN MORE" fontSize="text-[18px] w-full" />
-          </button>
+              <TypingText title="TRADE AND STRUCTURED FINANCE" fontSize="text-[18px] w-full" />
+            </button>
+            <button onClick={() => push('/what-we-do?product=offering',"/what-we-do")} className='learn-more p-3 mt-6 rounded border border-sky-500 text-white 
+        focus:shadow-outline font-bold cursor-pointer focus:outline-none'>
+              <TypingText title="PRODUCT OFFERING" fontSize="text-[18px] w-full" />
+            </button>
+          </div>
         </motion.div>
       </motion.div>
     </section>

@@ -7,7 +7,7 @@ import styles from '../styles';
 import { footerVariants } from '../utils/motion';
 
 const Footer = () => {
-  const { pathname } = useRouter()
+  const { pathname, push } = useRouter()
   const [navOpen, setNavOpen] = useState(false)
 
   useEffect(() => {
@@ -50,15 +50,15 @@ const Footer = () => {
         <div className="footer-gradient  bg-primary-black" />
         <div className={`${styles.innerWidth} mx-auto flex flex-col`}>
           <div className="flex items-center justify-between flex-wrap gap-5">
-            <div className='flex justify-center items-center text-[#fff] font-bold'>
-            <img
-              src="/logo.png"
-              alt="search"
-              className="w-[74px] h-[74px] h:w-[114px] h:h-[114px] object-contain"
-            />
-              <p className='md:text-[20px]'>Siddhi Global-FZCO</p>
+            <div className='flex justify-center items-center text-[#fff] font-bold cursor-pointer' onClick={() => push("/")}>
+              <img
+                src="/logo.png"
+                alt="search"
+                className="w-[74px] h-[74px] h:w-[114px] h:h-[114px] object-contain"
+              />
+              <p className='md:text-[20px] text-[#224283]'>Siddhi Global-FZCO</p>
             </div>
-           
+
             <div className="flex items-center justify-between flex-wrap z-10 gap-4">
               <motion.ul
                 initial={false}
@@ -69,12 +69,11 @@ const Footer = () => {
                   <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <Link href="/what-we-do">What we do</Link>
-                </li>
-                <li>
                   <Link href="/who-we-are">Who we are</Link>
                 </li>
-               
+                <li>
+                  <Link href="/what-we-do">What we do</Link>
+                </li>
                 <li>
                   <Link href="/contact-us">Contact Us</Link>
                 </li>

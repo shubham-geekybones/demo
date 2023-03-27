@@ -22,7 +22,7 @@ const Directors = () => {
                                 setMember(member)
                             }}>
 
-                                <div className='w-[100%]'>
+                                <div className='w-[100%] text-center'>
                                     <div className='outer-layer w-[300px] h-[300px] mt-[50px] md:mt-0'>
                                         <div className='inner-layer'>
                                             <img className="object-cover" src={url} alt={name} />
