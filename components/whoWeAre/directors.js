@@ -36,7 +36,6 @@ const Directors = () => {
                                             {positon}
                                         </p>
                                     </div>
-                                    <LinkedinOutlined style={{ fontSize: "24px", textAlign: "center" }} />
                                 </div>
                             </div>
                         )

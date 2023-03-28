@@ -37,7 +37,7 @@ const UREA = "/assets/images/urrea.jpg"  //
 const DAP = "/assets/images/dap.webp" //
 const MOP = "/assets/images/mop.jpg"  //
 const CRUDE_PALM_OIL = "/assets/images/crude-palm-oil.jpg"  //
-const SUNFLOWER_OIL = "/assets/images/sunflower.webp"  //
+const SUNFLOWER_OIL = "/assets/images/sunflower.png"  //
 
 export default {
   VIJAY_KAPUR,

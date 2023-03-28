@@ -6,6 +6,7 @@ export const constantsUs = [
     country: 'Dubai, UAE',
     branch: 'CORPORATE HEADQUARTERS',
     phoneNo: 'Phone:+97 588142255',
+    whatsappNo:'WhatsApp / Botim no: +91 98110 25792',
     emailId: 'rajinder@siddhi.global',
     block: 'www.siddhi.global',
     area: 'IFZA Properties, Dubai Silicon',
@@ -129,7 +130,7 @@ export const products = [
   {
     id: "11",
     url: IMAGES.COAL_ANTHRACITE,
-    name: "Coal Anthracite",
+    name: "Anthracite Coal",
     category: "energy-products",
     sources: "Sourced from - Peru, CIS countries"
   },

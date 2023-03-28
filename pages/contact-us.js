@@ -38,6 +38,7 @@ const ContactUs = () => {
                                 <p>{details.country}</p>
                                 <p>{details.branch}</p>
                                 <p>{details.phoneNo}</p>
+                                <p>{details.whatsappNo}</p>
                                 <p>{details.emailId}</p>
                                 <p>{details.block}</p>
                                 <p>{details.area}</p>

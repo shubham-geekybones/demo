@@ -24,7 +24,7 @@ const GetStarted = () => {
           <TitleText title={<>Who We Are</>} />
 
           <div className="mt-[31px] text-white text-[18px] md:text-[24px] flex flex-col max-w-[370px] gap-[24px]">
-          Our Company is engaged in commodity trading with financial muscle in terms of Trade and Structured Finance.
+          We are engaged in commodity trading with financial muscle in terms of Trade and Structured Finance.
           </div>
           <button className='relative learn-more p-3 mt-6 rounded bg-blue-500 hover:bg-blue-400 text-white 
         focus:shadow-outline font-bold cursor-pointer focus:outline-none'>

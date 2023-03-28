@@ -1,6 +1,5 @@
 'use client';
 import { motion } from 'framer-motion';
-import styles from '../styles';
 import { TitleText, TypingText } from '../components';
 import { planetVariants, staggerContainer, fadeIn } from '../utils/motion';
 import { useRouter } from 'next/router';
@@ -30,7 +29,7 @@ const WhatsNew = () => {
         focus:shadow-outline font-bold cursor-pointer focus:outline-none'>
               <TypingText title="TRADE AND STRUCTURED FINANCE" fontSize="text-[18px] w-full" />
             </button>
-            <button onClick={() => push('/what-we-do?product=offering',"/what-we-do")} className='learn-more p-3 mt-6 rounded border border-sky-500 text-white 
+            <button onClick={() => push('/what-we-do?product=offering',"/what-we-do")} className='learn-more p-3 mt-6 rounded bg-blue-500 hover:bg-blue-400 text-white 
         focus:shadow-outline font-bold cursor-pointer focus:outline-none'>
               <TypingText title="PRODUCT OFFERING" fontSize="text-[18px] w-full" />
             </button>
