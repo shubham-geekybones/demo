@@ -7,7 +7,7 @@ export const constantsUs = [
     branch: 'CORPORATE HEADQUARTERS',
     phoneNo: 'Phone:+97 588142255',
     whatsappNo:'WhatsApp / Botim no: +91 98110 25792',
-    emailId: 'rajinder@siddhi.global',
+    emailId: 'rg@siddhi.global',
     block: 'www.siddhi.global',
     area: 'IFZA Properties, Dubai Silicon',
     pincode: 'DSO-IFZA-21589'
@@ -69,7 +69,7 @@ export const products = [
     url: IMAGES.DIESEL,
     name: "Diesel",
     category: "energy-products",
-    sources: "Sourced from - Rotterdam, Kazakhstan ,Indonesia"
+    sources: "Sourced from - Rotterdam, Kazakhstan, Indonesia"
   },
   {
     id: "3",
@@ -160,14 +160,14 @@ export const products = [
     url: IMAGES.ALUMINA,
     name: "Alumina",
     category: "metal-products",
-    sources: "ASourced from-india"
+    sources: "Sourced from-india"
   },
   {
     id: "16",
     url: IMAGES.STEEL_SCRAP,
     name: "Steel Scrap",
     category: "metal-products",
-    sources: "Sourced from-middle east , Europe"
+    sources: "Sourced from-middle east, Europe"
   },
   {
     id: "17",
@@ -188,7 +188,7 @@ export const products = [
     url: IMAGES.ROCK_PHOSPHATE,
     name: "Rock Phosphate",
     category: "petrochemical-and-other-products",
-    sources: "Sourced from- Egypt,Jordan, Syria"
+    sources: "Sourced from- Egypt, Jordan, Syria"
   },
   {
     id: "20",

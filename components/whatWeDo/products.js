@@ -48,7 +48,7 @@ const Products = () => {
                     )
                 })}
             </div>
-            <div className='w-full flex justify-center items-center flex-wrap p-10 md:pl-[100px] md:pr-[100px]'>
+            <div className='w-full flex justify-center items-center flex-wrap p-4 md:px-[50px]'>
                 {
                     filteredProduct.map((product, i) => {
                         const { name, category, url, id, sources } = product

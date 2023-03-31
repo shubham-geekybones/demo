@@ -12,8 +12,8 @@ const Header = () => {
                 <div className="w-[98%] md:w-[60%] p-[50px] md:p-[100px] flex justify-between items-center">
                     <div id="et-simple-braket-block-1" className="et-simple-braket-block text-justify">
                        
-                        <div className="braket-text text-[18px] md:text-[24px]">
-                            Having worldwide penetration in trade and expertise in structured finance; we can facilitate trading opportunities across the globe. We can provide value proposition by offering back to back Letter of Credit and other customized finacial solutions.
+                        <div className="braket-text text-[18px] md:text-[24px] text-start">
+                            Having worldwide penetration in trade and expertise in structured finance, we can facilitate trading opportunities across the globe. We can provide value proposition by offering back to back Letter of Credit and other customized financial solutions.
                         </div>
                     </div>
 

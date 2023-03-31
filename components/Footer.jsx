@@ -50,9 +50,9 @@ const Footer = () => {
                 </p>
                 <p className='border-left'></p>
                 <div className='font-normal text-[14px] text-white opacity-50'>
-                  <p className='flex items-center mt-8'><HomeFilled className='mr-2 mb-[auto]' />DSO-IFZA-21589, IFZA Properties, <br></br>Dubai Silicon Oasis, Dubai UAE</p>
+                  <p className='flex items-center mt-8'><HomeFilled className='mr-2 mb-[auto]' />DSO-IFZA-21589, IFZA Properties, <br></br>Dubai Silicon Oasis, Dubai, UAE</p>
                   <p className='flex items-center mt-3'><PhoneOutlined className='mr-2' />+971 58814 2255</p>
-                  <p className='flex items-center mt-3'><MailOutlined className='mr-2' />rajinder@siddhi.global</p>
+                  <p className='flex items-center mt-3'><MailOutlined className='mr-2' />rg@siddhi.global</p>
                 </div>
 
               </div>

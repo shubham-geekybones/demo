@@ -82,7 +82,7 @@ const Footer = () => {
                 variants={iconVariants}
                 animate={navOpen ? "opened" : "closed"}
                 whileHover={{ scale: 1.2 }}
-                className="cursor-pointer block md:hidden"
+                className="cursor-pointer block md:hidden bg-black p-1 rounded-lg"
                 onClick={() => setNavOpen(!navOpen)}>
                 <img
                   src="/menu.svg"

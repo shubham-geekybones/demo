@@ -1,5 +1,7 @@
 import React from 'react'
 import { useRouter } from 'next/router'
+import { Button } from 'antd'
+import { DownloadOutlined } from '@ant-design/icons'
 const Trade = () => {
     const { push } = useRouter()
     return (
@@ -8,6 +10,7 @@ const Trade = () => {
                 <div className="w-[98%] md:w-[60%] pl-[30px] md:pl-[100px] flex justify-between items-center">
                     <div id="et-simple-braket-block-1" className="et-simple-braket-block text-justify">
                         <div className="braket-text">
+                            <div class="border mb-2"></div>
                             <h2 className='text-[18px] md:text-[24px] mb-3'>Quick & Trustworthy</h2>
                             <h3 className='text-[35px] md:text-[45px]'>
                                 Trade / Structured Finance Enquiry
@@ -28,6 +31,9 @@ const Trade = () => {
                         </h2>
                     </div>
                     <button className='send-message mt-4 text-[14px] md:text-[16px]' onClick={() => push('/contact-us')}>SEND MESSAGE</button>
+                    <Button className="download-button mt-4 md:ml-4" type="primary" icon={<DownloadOutlined className='mr-1' />} size={'large'}>
+                    <a href='assets/deal-sheet.docx' download>Download Deal Sheet</a>
+                </Button>
                 </div>
             </div>
         </div>

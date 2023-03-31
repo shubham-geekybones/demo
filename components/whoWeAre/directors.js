@@ -10,7 +10,7 @@ const Directors = () => {
     return (
         <>
             <div className='director-section  px-12 py:5 md:px-[150px] md:py-5'>
-                <p className='md:text-center our-team-p text-[18px] md:text-[28px] py-[40px] md:my-[10px] text-[#9a9a9a;]'>
+                <p className='md:text-center our-team-p text-[18px] md:text-[28px] py-[40px] md:my-[10px] text-[#000;]'>
                     Our team comprises persons with varied experience and impeccable professional background
                 </p>
                 <div className='director-card '>
