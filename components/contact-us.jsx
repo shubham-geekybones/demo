@@ -13,7 +13,7 @@ const ContactUS = () => {
 
     const onSubmit = async (data) => {
         try {
-            emailjs.sendForm('service_xn0i8al', 'template_7rhmn0x', form.current, 'dyim-DODg872P7wCI')
+            emailjs.sendForm('service_7jybzkk', 'template_33yv11z', form.current, 'qGt-Y2CUXtGVEvNRT')
                 .then(() => {
                     toast.success("message sent successfully");
                     reset()

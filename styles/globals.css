@@ -22,7 +22,7 @@ body {
 nav {
   top: 0;
   width: 100%;
-  z-index: 100000;
+  z-index: 1;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.384);
   background: #ffffff;
   backdrop-filter: blur(10px);
@@ -359,7 +359,6 @@ nav ul li:hover a {
 .bg-curve-shape {
   padding: 10px 30px;
   width:100%;
-  height: 80vh;
   background: #ECEFF0;
   border-top-right-radius: 40px;
 }

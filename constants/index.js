@@ -237,18 +237,18 @@ export const members = [
     para2: "He is a trade and structured finance specialist in origination and structuring of commodities related trade financing using innovative and out of box solutions."
   },
   {
-    id: "2",
-    url: IMAGES.VIJAY_KAPUR,
-    name: "Vijay Kapur",
-    positon: "Director-Finance",
-    para1: "He is a Chartered Accountant with 42 years of Professional expertise in Banking and Structured Finance. He had worked with various trading manufacturing and real estate companies. He is proficient in providing structured solutions for financing of Trade and projects.",
-  },
-  {
     id: "3",
     url: IMAGES.RAMESH_KHATTAR,
     name: "Ramesh Kumar Khatter",
     positon: "Director-Trade",
     para1: "He is a US citizen with more than 35 years of trading experience worldwide. He has established strong trading relationships with traders dealing in various commodities globally. He has achieved trust and respect of trading fraternity. He has expertise in supply chain linkages along with inter trade requirements, fulfilment and administration.",
+  },
+  {
+    id: "2",
+    url: IMAGES.VIJAY_KAPUR,
+    name: "Vijay Kapur",
+    positon: "Director-Finance",
+    para1: "He is a Chartered Accountant with 42 years of Professional expertise in Banking and Structured Finance. He had worked with various trading manufacturing and real estate companies. He is proficient in providing structured solutions for financing of Trade and projects.",
   },
   {
     id: "4",
